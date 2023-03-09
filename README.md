@@ -1,0 +1,2 @@
+# clsty
+output colorful logs
