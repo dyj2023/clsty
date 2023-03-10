@@ -19,7 +19,8 @@
     "dev": "vite",
     "build": "tsc && vite build",
     "preview": "vite preview",
-    "release": "bumpp & npm publish"
+    "tsc": "tsc",
+    "release": "bumpp && npm publish"
   },
   "devDependencies": {
     "bumpp": "^9.0.0",
