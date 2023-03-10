@@ -1,0 +1,29 @@
+{
+  "name": "clsty",
+  "private": false,
+  "version": "0.0.0",
+  "type": "module",
+  "types": "./dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "main": "./dist/clsty.umd.cjs",
+  "module": "./dist/clsty.js",
+  "exports": {
+    ".": {
+      "import": "./dist/clsty.js",
+      "require": "./dist/clsty.umd.cjs"
+    }
+  },
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview",
+    "release": "bumpp & npm publish"
+  },
+  "devDependencies": {
+    "bumpp": "^9.0.0",
+    "typescript": "^4.9.3",
+    "vite": "^4.1.0"
+  }
+}
